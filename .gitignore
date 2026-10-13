@@ -1,0 +1,87 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+.repack-stage/
+coverage/
+*.log
+.DS_Store
+
+# Local records, credentials, photos and backups
+backups/
+skin-photos/
+body-photos/
+imported-videos/
+皮肤照片/
+健身照片/
+跟练视频/
+face-reshape-data.json
+face-reshape-data.json.tmp
+hub-today.json
+hub-today.json.tmp
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.bak
+*.pem
+*.key
+*.p12
+.env
+.env.*
+!.env.example
+tests/.electron-profile/
+
+# Local agent state and private review material
+.impeccable/
+.mimosa/
+.v2c/
+.video_agent/
+.codex/
+.agents/
+.patch-reader/
+.window-*.cjs
+PORT-NOTES.md
+DESIGN.md
+PRODUCT.md
+
+# Portable backups and system-encrypted local API key
+*.frbackup
+ai-key.enc
+ai-key.enc.tmp
+restore-before-*/
+
+# Private local integrations, capture artifacts and imported personal media
+.zcode/
+.zcodeignore
+AGENT_PROGRESS.md
+本地视频预览/
+饮食照片/
+meal-photos/
+hub-meal-token*
+notification-test.jsonl
+release-evidence/
+docs/accept-*.md
+docs/dev-*.md
+docs/*-evidence/
+docs/zcode-*
+docs/*-acceptance-*.md
+docs/face-install-recovery-*
+docs/video-period-filter-investigation-*
+
+# Keep local records and login state outside the public source tree.
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+Cookies
+Login Data
+/.mimosa/
+/.codex/
+/.claude/
+/backup-userdata/
+/user-data/
+/userdata/
